@@ -9,3 +9,6 @@ zig source: newer-standards-version *
 
 # yes, it's true
 zig source: testsuite-autopkgtest-missing
+
+# needed for 0.6.0, but not master
+zig source: source-is-missing doc/std/data.js *

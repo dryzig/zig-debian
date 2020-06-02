@@ -1,5 +1,7 @@
 zig (0.6.0-1) unstable; urgency=low
 
-  * Initial development build.
+  * Initial packaging based on upstream's amd64 binaries:
 
- -- Arto Bendiken <arto@bendiken.net>  Tue, 2 Jun 2020 07:15:00 +0300
+    <https://ziglang.org/download/0.6.0/zig-linux-x86_64-0.6.0.tar.xz>
+
+ -- Arto Bendiken <arto@bendiken.net>  Tue, 2 Jun 2020 10:37:12 +0300
