@@ -1,0 +1,11 @@
+# explicit is better than implicit
+zig source: binary-control-field-duplicates-source *
+
+# yes, it's true
+zig source: source-is-missing zig
+
+# we endeavor to track the latest policy
+zig source: newer-standards-version *
+
+# yes, it's true
+zig source: testsuite-autopkgtest-missing

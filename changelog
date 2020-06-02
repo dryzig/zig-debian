@@ -1,0 +1,5 @@
+zig (0.6.0-1) unstable; urgency=low
+
+  * Initial development build.
+
+ -- Arto Bendiken <arto@bendiken.net>  Tue, 2 Jun 2020 07:15:00 +0300

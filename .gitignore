@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Editor backup files
+*~
+
+# debuild artifacts
+.debhelper/
+debhelper-build-stamp
+files
+zig.substvars
+zig/

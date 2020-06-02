@@ -1,0 +1,22 @@
+Source: zig
+Priority: optional
+Section: devel
+Maintainer: Arto Bendiken <arto@bendiken.net>
+Build-Depends:
+ debhelper (>= 10),
+ dpkg-dev (>= 1.19)
+Standards-Version: 4.5.0
+Homepage: https://ziglang.org
+Vcs-Git: https://github.com/ziglang/zig.git
+Vcs-Browser: https://github.com/ziglang/zig
+
+Package: zig
+Architecture: amd64
+Section: devel
+Depends: ${misc:Depends}
+Description: General-purpose programming language and toolchain
+ Zig is a general-purpose programming language and toolchain for maintaining
+ robust, optimal, and reusable software.
+ .
+ This package contains the Zig executable (`zig`) as well as the Zig
+ language reference in HTML format.

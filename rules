@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+export LC_ALL=C.UTF-8
+export DH_VERBOSE=1
+
+include /usr/share/dpkg/architecture.mk
+
+prefix      = /usr
+exec_prefix = $(prefix)
+libdir      = $(exec_prefix)/lib/$(DEB_HOST_MULTIARCH)
+
+%:
+	dh $@

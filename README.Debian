@@ -1,0 +1,9 @@
+Zig for Debian
+==============
+
+See <https://ziglang.org/documentation/0.6.0/> for documentation.
+
+Use <https://github.com/ziglang/zig/issues> for bug reports regarding Zig.
+
+Use <https://github.com/dryzig/zig-debian/issues> for bug reports and
+feature requests regarding the packaging of Zig for Debian.
