@@ -9,6 +9,22 @@ packages from the [upstream tarballs](https://ziglang.org/download/).
 [Zig]:     https://ziglang.org
 [`debuild`]: https://manpages.debian.org/testing/devscripts/debuild.1.en.html
 
+Distributions
+-------------
+
+Currently, x86-64 (aka AMD64) binary packages are available for all recent
+Ubuntu and Debian releases:
+
+| Distribution     | Alias    | AMD64 |
+| :--------------- | :------- | :---- |
+| Ubuntu 20.10     | Groovy   | ✔     |
+| Ubuntu 20.04 LTS | Focal    | ✔     |
+| Ubuntu 19.10     | Eoan     | ✔     |
+| Ubuntu 18.04 LTS | Bionic   | ✔     |
+| Debian 11        | Bullseye | ✔     |
+| Debian 10        | Buster   | ✔     |
+| Debian unstable  | Sid      | ✔     |
+
 Installation
 ------------
 
