@@ -107,3 +107,24 @@ $ sudo apt update
 $ echo 'deb https://dl.bintray.com/dryzig/zig-debian buster main' | sudo tee -a /etc/apt/sources.list
 $ sudo apt update
 ```
+
+Maintenance
+-----------
+
+### Building `zig_0.6.0-1_amd64.deb`
+
+```bash
+$ wget https://ziglang.org/download/0.6.0/zig-linux-x86_64-0.6.0.tar.xz
+$ tar xvf zig-linux-x86_64-0.6.0.tar.xz
+```
+
+```bash
+$ ln -s zig-linux-x86_64-0.6.0 zig-0.6.0
+$ tar cJhf zig_0.6.0.orig.tar.xz zig-0.6.0
+```
+
+```bash
+$ cd zig-0.6.0
+$ git clone https://github.com/dryzig/zig-debian.git debian
+$ debuild
+```
