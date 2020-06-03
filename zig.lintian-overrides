@@ -1,4 +1,4 @@
-# yes, it's true
+# none of these originate from Zig per se
 zig: spelling-error-in-binary usr/lib/zig/0.6.0/zig *
 
 # the binary is statically linked
