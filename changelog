@@ -1,3 +1,11 @@
+zig (0.7.0-1) unstable; urgency=low
+
+  * Upgraded to latest 0.7.0 release
+
+    <https://ziglang.org/download/0.7.0/zig-linux-x86_64-0.7.0.tar.xz>
+
+ -- Kent Smith <kentsmith@gmail.com>  Wed, 18 Nov 2020 16:09:25 -0600
+
 zig (0.6.0-1) unstable; urgency=low
 
   * Initial packaging based on upstream's amd64 binaries:

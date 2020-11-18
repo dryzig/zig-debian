@@ -43,9 +43,9 @@ Alternatively, you can just download the latest [`.deb`][] file and install
 that directly with [`dpkg`][]:
 
 ```bash
-$ wget https://github.com/dryzig/zig-debian/releases/download/0.6.0-1/zig_0.6.0-1_amd64.deb
+$ wget https://github.com/dryzig/zig-debian/releases/download/0.7.0-1/zig_0.7.0-1_amd64.deb
 
-$ sudo dpkg -i zig_0.6.0-1_amd64.deb
+$ sudo dpkg -i zig_0.7.0-1_amd64.deb
 ```
 
 [`.deb`]: https://en.wikipedia.org/wiki/Deb_(file_format)
@@ -111,20 +111,20 @@ $ sudo apt update
 Maintenance
 -----------
 
-### Building `zig_0.6.0-1_amd64.deb`
+### Building `zig_0.7.0-1_amd64.deb`
 
 ```bash
-$ wget https://ziglang.org/download/0.6.0/zig-linux-x86_64-0.6.0.tar.xz
-$ tar xvf zig-linux-x86_64-0.6.0.tar.xz
+$ wget https://ziglang.org/download/0.7.0/zig-linux-x86_64-0.7.0.tar.xz
+$ tar xvf zig-linux-x86_64-0.7.0.tar.xz
 ```
 
 ```bash
-$ ln -s zig-linux-x86_64-0.6.0 zig-0.6.0
-$ tar cJhf zig_0.6.0.orig.tar.xz zig-0.6.0
+$ ln -s zig-linux-x86_64-0.7.0 zig-0.7.0
+$ tar cJhf zig_0.7.0.orig.tar.xz zig-0.7.0
 ```
 
 ```bash
-$ cd zig-0.6.0
+$ cd zig-0.7.0
 $ git clone https://github.com/dryzig/zig-debian.git debian
 $ debuild
 ```
